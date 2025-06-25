@@ -1,10 +1,12 @@
 
 import React, { useState } from 'react';
 import { ArrowRight, Check } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const SignupForm = () => {
   const [email, setEmail] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const navigate = useNavigate();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -13,6 +15,10 @@ const SignupForm = () => {
       // Here you would typically send the data to your backend
       console.log('Email submitted:', email);
     }
+  };
+
+  const handleGetStarted = () => {
+    navigate('/auth');
   };
 
   if (isSubmitted) {
@@ -29,9 +35,15 @@ const SignupForm = () => {
             </p>
             <button 
               onClick={() => setIsSubmitted(false)}
-              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-200"
+              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-200 mr-4"
             >
               Sign up another email
+            </button>
+            <button 
+              onClick={handleGetStarted}
+              className="bg-white/20 backdrop-blur-sm text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/30 transition-all duration-200"
+            >
+              Create Full Account
             </button>
           </div>
         </div>
@@ -72,6 +84,15 @@ const SignupForm = () => {
               Start your free 14-day trial. No credit card required.
             </p>
           </form>
+
+          <div className="mt-8">
+            <button 
+              onClick={handleGetStarted}
+              className="text-white/80 hover:text-white transition-colors underline underline-offset-4"
+            >
+              Or create a full account with name and password →
+            </button>
+          </div>
 
           {/* Features list */}
           <div className="grid sm:grid-cols-3 gap-6 mt-12 pt-12 border-t border-white border-opacity-20">
