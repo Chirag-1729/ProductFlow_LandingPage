@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+# 🌐 Responsive Landing Page
 
-## Project info
+🎯 **Project Goal:**  
+To design and develop a fully responsive landing page for a fictional product/service using modern layout techniques and mobile-first design principles.
 
-**URL**: https://lovable.dev/projects/49db0c2b-945d-47b0-9d56-60a0ec879478
+🛠️ **Built as Task** during my Web Developer Internship at [Coding Samurai](https://www.linkedin.com/company/coding-samurai/).
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- 📱 **Mobile-First Design** – Optimized for all screen sizes: mobile, tablet, and desktop  
+- 🧱 **Flexbox & CSS Grid** – Clean and structured layout using modern CSS techniques  
+- 🧾 **Signup Form** – Integrated user input form for lead generation  
+- ⚡ **Responsive Transitions** – Smooth and elegant design flow across devices  
+- 🌈 **Aesthetic UI** – Neat typography and consistent visual hierarchy
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/49db0c2b-945d-47b0-9d56-60a0ec879478) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💡 What I Learned
 
-**Use your preferred IDE**
+- Responsive web design using **media queries**
+- Structuring layouts with **Flexbox** and **CSS Grid**
+- Applying **mobile-first development** techniques
+- Creating clean and accessible user interfaces
+- Enhancing frontend fundamentals in real-world projects
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📸 Screenshots
 
-Follow these steps:
+![image](https://github.com/user-attachments/assets/2da0ed7e-1c70-47e7-a8b0-0cd3635e5cb2)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Technologies Used
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- HTML5  
+- CSS3 (Flexbox, Grid, Media Queries)  
+- Visual Studio Code
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧑‍💻 Author
 
-**Use GitHub Codespaces**
+👋 Hi, I’m **Chirag** – a passionate Web Developer Intern at Coding Samurai.  
+Connect with me on [LinkedIn](https://www.linkedin.com/in/chirag-singh-cu/)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📂 Project Status
 
-This project is built with:
+✅ **Completed**  
+💡 Open to feedback and suggestions!
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📬 Feedback
 
-Simply open [Lovable](https://lovable.dev/projects/49db0c2b-945d-47b0-9d56-60a0ec879478) and click on Share -> Publish.
+If you have any feedback or ideas for improvement, feel free to open an issue or reach out directly on LinkedIn!
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🌟 Acknowledgement
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Thanks to **Coding Samurai** for this wonderful learning opportunity and mentorship during my internship.
